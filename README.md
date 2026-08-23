@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -21,7 +21,7 @@
     <div class="total">Total Money: <span id="totalPrice">₹0</span></div>
     <button class="btn-checkout" onclick="checkout()">Checkout Order</button>
     <br>
-    <a href="table1_page8.html">&larr; Back to Menu</a>
+    <a href="https://kshitij-bhuwania.github.io/table-8/">&larr; Back to Menu</a>
   </div>
 
   <script>
