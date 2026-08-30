@@ -1,7 +1,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Table 1 - Cart & Total</title>
+  <title>Table 8 - Cart & Total</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; background: #f8f9fa; }
     .box { background: white; border: 1px solid #ddd; padding: 20px; border-radius: 8px; max-width: 450px; margin: 0 auto; }
@@ -18,17 +18,17 @@
 <body>
 
   <div class="box">
-    <h2>Table 1 - Cart & Total</h2>
+    <h2>Table 8 - Cart & Total</h2>
     <ul id="cartItems"></ul>
     <div class="total">Total Money: <span id="totalPrice">₹0</span></div>
     <button class="btn-checkout" onclick="checkout()">Checkout Order</button>
     <br>
-    <a href="https://kshitij-bhuwania.github.io/table-1/">&larr; Back to Menu</a>
+    <a href="https://kshitij-bhuwania.github.io/table-8/">&larr; Back to Menu</a>
   </div>
 
   <script>
-    const TABLE_NAME = "Table 1";
-    const TABLE_KEY = "cart_table_1";
+    const TABLE_NAME = "Table 8";
+    const TABLE_KEY = "cart_table_8";
     const channel = new BroadcastChannel("restaurant_orders");
 
     function renderCart() {
@@ -95,7 +95,7 @@
       localStorage.removeItem(TABLE_KEY);
       
       alert("Order Checked Out Successfully!");
-      window.location.href = "table1_page1.html";
+      window.location.href = "table1_page8.html";
     }
 
     renderCart();
